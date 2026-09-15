@@ -1,0 +1,35 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- NYPC 제공 파일 (넥슨 저작물, 아카이브에서 직접 받으세요) ----
+src/testing-tool.py
+src/sample-code.py
+src/config.ini
+
+# ---- 대전 로그 / 리플레이 / 실험 산출물 ----
+*.log
+*.txt
+!requirements*.txt
+analysis_logs/
+replays*/
+log.txt
+
+# ---- 백업본·A/B 사본 (이력은 CHANGELOG.md 참고) ----
+src/proto_*.py
+src/_*.py
+src/*_flags0.py
+src/*_off.py
+src/*_on.py
+src/r6_no_*.py
+
+# ---- OS / 에디터 / 에이전트 작업 폴더 ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.claude/
+.codex/
+.agents/
